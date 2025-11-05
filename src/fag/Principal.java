@@ -313,6 +313,7 @@ import fag.objetos.Produto;
 			public static void calcularTroco() {
 				double troco=0;
 				troco=somarCarteira() - somarCarrinho();
+				System.out.printf("Seu troco é R$%.2f\n", troco);
 			}
 			
 		}
